@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+  color: white;
+  background-color: black;
+  line-height: 1.6;
+}
+.logo img {
+  height: 40px;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.links {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+  font-size: 2rem;
+}
+.links a {
+  font-family: "Oswald", serif;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 7px;
+}
+.log {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.login-btn {
+  background-color: #255f38;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.hero {
+  background-image: url(aboutus.jpg);
+  height: 70vh;
+  margin-top: 30px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.over {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.sub {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.about-sec {
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+}
+.about-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+.column {
+  flex: 1;
+  min-width: 300px;
+  max-width: 550px;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: 900;
+  color: #079f5d;
+  margin-bottom: 24px;
+}
+p {
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 20px;
+}
+.such {
+  padding: 80px 40px;
+  background: linear-gradient(to right, #1f7d54 #255f38);
+}
+.such-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.text-column {
+  flex: 1;
+  min-width: 320px;
+  max-width: 550px;
+}
+.text-column h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
+}
+.text-column .high {
+  color: #a7c1a8;
+}
+.text-column p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.button {
+  background-color: #27391c;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 27px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+.button:hover{
+    background-color: #079f5d;
+}
+.im-column{
+    flex: 1;
+    text-align: right;
+    min-width: 300px;
+    max-width: 600px;
+}
+.im-column img{
+    max-width: 100%;
+    height: auto;
+}
+.footer {
+  background-color: black;
+  padding: 30px 40px 10px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+.footer-left h2 {
+  font-family: "EB Garamond", serif;
+  color: #255f38;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.ic {
+  background-color: #1f7d53;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  margin-top: 90px;
+}
+.ic:hover {
+  transform: scale(1.1);
+}
+.nav-foot {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.nav-foot a {
+  color: #bcb6b6;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.nav-foot a:hover {
+  color: #1f7d53;
+}
+.nav-foot ul {
+  list-style-type: none;
+}
+.nav-foot:hover {
+  color: #1f7d53;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: right;
+}
+.footer-right small {
+  color: #999;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.footer-right p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #eee;
+}

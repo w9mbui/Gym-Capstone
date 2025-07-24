@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Tabs</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+    }
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: auto;
+    }
+    .tab-labels {
+      display: flex;
+      gap: 1rem;
+    }
+    .tab-labels label {
+      padding: 0.5rem 1rem;
+      background: #E5E7EB;
+      cursor: pointer;
+      border-radius: 5px 5px 0 0;
+    }
+    .tab-content {
+      border: 1px solid #CBD5E1;
+      padding: 1rem;
+      display: none;
+      border-radius: 0 0 5px 5px;
+    }
+    input[name="tab"] {
+      display: none;
+    }
+    #tab1:checked ~ .content #content1,
+    #tab2:checked ~ .content #content2,
+    #tab3:checked ~ .content #content3 {
+      display: block;
+    }
+    #tab1:checked ~ .labels label[for="tab1"],
+    #tab2:checked ~ .labels label[for="tab2"],
+    #tab3:checked ~ .labels label[for="tab3"] {
+      background: #437057;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="tabs">
+    <input type="radio" id="tab1" name="tab" checked>
+    <input type="radio" id="tab2" name="tab">
+    <input type="radio" id="tab3" name="tab">
+    <div class="labels tab-labels">
+      <label for="tab1">Monday</label>
+      <label for="tab2">Tuseday</label>
+      <label for="tab3">Wednesday</label>
+      <label for="tab4">Thursday</label>
+      <label for="tab5">Friday</label>
+      <label for="tab6">Saturday</label>
+      <label for="tab7">Sunday</label>
+    </div>
+    <div class="content">
+      <div id="content1" class="tab-content">
+        <p>This is content for Tab One.</p>
+      </div>
+      <div id="content2" class="tab-content">
+        <p>This is content for Tab Two.</p>
+      </div>
+      <div id="content3" class="tab-content">
+        <p>This is content for Tab Three.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+React
+
+Reply
+
+
+
+
+
+
+
+
+
+
