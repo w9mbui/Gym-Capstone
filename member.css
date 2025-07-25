@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "EB Garamond", serif;
+  background: black;
+  color: white;
+  line-height: 1.6;
+}
+.btn {
+  background: #1f7d53;
+  color: black;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.logo img {
+  height: 40px;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+  font-size: 2rem;
+}
+.links a {
+  font-family: "Oswald", serif;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 7px;
+}
+.log {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.login-btn {
+  background-color: #255f38;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.hero {
+  background-image: url(rowrow.jpg);
+  height: 70vh;
+  margin-top: 30px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.over {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.sub {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.pri-sec{
+    padding: 40px 60px;
+}
+.introo{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.introo h1{
+    color: #1f7d53;
+    font-size: 2.5rem;
+    flex: 1;
+}
+.introo p{
+    flex: 1;
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+hr{
+    border: none;
+    border-top: 1px solid gray;
+    margin: 40px 0;
+    margin-top: 40px;
+}
+.subhead{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.plan-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0;
+}
+.plan-right, .middle, .plan-left{
+    flex: 1;
+    text-align: center;
+}
+.plan-left h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.small{
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+.sm{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.plan-right button{
+    background-color: #1f7d53;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.plan-right ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: white;
+}
+.plan-right ul li{
+    margin-bottom: 5px;
+}
+
