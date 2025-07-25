@@ -1,13 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
+  background: black;
   color: white;
-  background-color: black;
   line-height: 1.6;
+}
+.work-sec{
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.main{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.des{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+.btn {
+  background: #1f7d53;
+  color: black;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
 }
 .logo img {
   height: 40px;
@@ -24,6 +51,7 @@ body {
   width: 100%;
   z-index: 1000;
 }
+
 .links {
   display: flex;
   gap: 20px;
@@ -51,115 +79,57 @@ body {
   font-weight: bolder;
   font-size: 13px;
 }
+.card {
+  width: 360px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card .card-body {
+  padding: 1rem;
+}
+.card-body h3{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+}
+.card-body p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: black;
+}
 
-.hero {
-  background-image: url(aboutus.jpg);
-  height: 70vh;
-  margin-top: 30px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.over {
+.btn {
+  background: #255f38;
   color: white;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.25);
-  padding: 1rem 2rem;
-  border-radius: 8px;
-}
-.sub {
-  font-size: 1rem;
-  font-weight: 600;
-}
-.title {
-  font-size: 3rem;
-  font-weight: 900;
-}
-.about-sec {
-  padding: 60px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: black;
-}
-.about-con {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: space-between;
-}
-.column {
-  flex: 1;
-  min-width: 300px;
-  max-width: 550px;
-}
-h1 {
-  font-size: xx-large;
-  font-weight: 900;
-  color: #079f5d;
-  margin-bottom: 24px;
-}
-p {
-  line-height: 1.6;
-  color: white;
-  margin-bottom: 20px;
-}
-.such {
-  padding: 80px 40px;
-  background: linear-gradient(to right, #1f7d54 #255f38);
-}
-.such-con {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-.text-column {
-  flex: 1;
-  min-width: 320px;
-  max-width: 550px;
-}
-.text-column h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  color: white;
-  margin-bottom: 20px;
-}
-.text-column .high {
-  color: #a7c1a8;
-}
-.text-column p {
-  font-size: 1rem;
-  color: white;
-  margin-bottom: 30px;
-}
-.button {
-  background-color: #27391c;
-  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
   text-decoration: none;
-  padding: 14px 28px;
-  border-radius: 27px;
-  font-weight: 500;
-  font-size: 1rem;
-  transition: background 0.3s ease;
+  display: inline-block;
+  font-weight: bolder;
 }
-.button:hover{
-    background-color: #079f5d;
-}
-.im-column{
-    flex: 1;
-    text-align: right;
-    min-width: 300px;
-    max-width: 600px;
-}
-.im-column img{
-    max-width: 100%;
-    height: auto;
-}
+.des-grid {
+  margin-top: 50px;
+    display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;}
+
+
+
+
+
+
 .footer {
   background-color: black;
   padding: 30px 40px 10px;
