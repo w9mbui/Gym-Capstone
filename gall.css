@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "EB Garamond", serif;
+  background: black;
+  color: white;
+  line-height: 1.6;
+}
+.work-sec {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.main {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.des {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 40px;
+}
+.btn {
+  background: #1f7d53;
+  color: black;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.logo img {
+  height: 40px;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+  font-size: 2rem;
+}
+.links a {
+  font-family: "Oswald", serif;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 7px;
+}
+.log {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.login-btn {
+  background-color: #255f38;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.train-section {
+  padding: 40px 20px;
+  background-color: black;
+  text-align: center;
+}
+
+.train-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.scroll-gallery::-webkit-scrollbar {
+  height: 8px;
+}
+.scroll-gallery::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 4px;
+}
+
+.scroll-gallery img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.footer {
+  background-color: black;
+  padding: 30px 40px 10px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+.footer-left h2 {
+  font-family: "EB Garamond", serif;
+  color: #255f38;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.ic {
+  background-color: #1f7d53;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  margin-top: 90px;
+}
+.ic:hover {
+  transform: scale(1.1);
+}
+.nav-foot {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.nav-foot a {
+  color: #bcb6b6;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.nav-foot a:hover {
+  color: #1f7d53;
+}
+.nav-foot ul {
+  list-style-type: none;
+}
+.nav-foot:hover {
+  color: #1f7d53;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: right;
+}
+.footer-right small {
+  color: #999;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.footer-right p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #eee;
+}
