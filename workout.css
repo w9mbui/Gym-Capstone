@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "EB Garamond", serif;
@@ -9,23 +9,23 @@ body {
   color: white;
   line-height: 1.6;
 }
-.work-sec{
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    margin-top: 50px;
+.work-sec {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
 }
-.main{
-    font-size: 40px;
-    color: white;
-    margin-bottom: 10px;
-    font-weight: bolder;
+.main {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bolder;
 }
-.des{
-    font-size: 20px;
-    color: white;
-    margin-bottom: 40px;
+.des {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 40px;
 }
 .btn {
   background: #1f7d53;
@@ -98,10 +98,10 @@ body {
 .card .card-body {
   padding: 1rem;
 }
-.card-body h3{
-    font-size: x-large;
-    font-weight: bolder;
-    color: black;
+.card-body h3 {
+  font-size: x-large;
+  font-weight: bolder;
+  color: black;
 }
 .card-body p {
   font-size: 0.95rem;
@@ -120,15 +120,11 @@ body {
 }
 .des-grid {
   margin-top: 50px;
-    display: flex;
+  display: flex;
   justify-content: center;
   gap: 2rem;
-  flex-wrap: wrap;}
-
-
-
-
-
+  flex-wrap: wrap;
+}
 
 .footer {
   background-color: black;
@@ -204,4 +200,10 @@ body {
   margin: 4px 0 0;
   font-size: 1rem;
   color: #eee;
+}
+hr{
+    border: none;
+    border-top: 1px solid gray;
+    margin: 40px 0;
+    margin-top: 40px;
 }

@@ -165,4 +165,151 @@ hr{
 .plan-right ul li{
     margin-bottom: 5px;
 }
+.mem-sec{
+  background-color: #18230f;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.mem-sec h1{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.mem-sec p{
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.card-contain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.car{
+  background-color: #18230f;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px 30px;
+  max-width: 250px;
+  width: 100%;
+}
+.car h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.car .min{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.car h3{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.car .sub{
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.car ul{
+  list-style: none;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.car ul li{
+  margin: 5px 0;
+  font-style: italic;
+}
+.car a{
+  text-decoration: none;
+  color: black;
+}
+.car button{
+  background-color: #1f7d53;
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.4s;
+  text-decoration: none;
+
+}
+.car button:hover{
+  background-color: #ccc;
+}
+.footer {
+  background-color: black;
+  padding: 30px 40px 10px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+.footer-left h2 {
+  font-family: "EB Garamond", serif;
+  color: #255f38;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.ic {
+  background-color: #1f7d53;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  margin-top: 90px;
+}
+.ic:hover {
+  transform: scale(1.1);
+}
+.nav-foot {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.nav-foot a {
+  color: #bcb6b6;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.nav-foot a:hover {
+  color: #1f7d53;
+}
+.nav-foot ul {
+  list-style-type: none;
+}
+.nav-foot:hover {
+  color: #1f7d53;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: right;
+}
+.footer-right small {
+  color: #999;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.footer-right p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #eee;
+}
+
 
