@@ -51,9 +51,7 @@ body{
     margin: auto;
     gap: 50px;
 }
-.feature-left ul{
-    list-style: none;
-}
+
 .feature-left li{
     margin-bottom: 12px 0;
     gap: 60px;
