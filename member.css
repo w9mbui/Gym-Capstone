@@ -80,7 +80,7 @@ body {
   border-radius: 8px;
 }
 .sub {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 .title {
@@ -105,7 +105,7 @@ body {
 .introo p{
     flex: 1;
     max-width: 500px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 hr{
@@ -164,7 +164,7 @@ hr{
     list-style: none;
     padding: 0;
     margin-top: 10px;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     color: white;
 }
 .plan-right ul li{
@@ -216,7 +216,7 @@ hr{
 }
 .car ul{
   list-style: none;
-  font-size: 13px;
+  font-size: 1rem;
   margin-bottom: 30px;
 }
 .car ul li{

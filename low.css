@@ -42,7 +42,7 @@ h1{
     margin-bottom: 20px;
 }
 .des{
-    font-size: 16px;
+    font-size: 1.1rem;
     color: white;
     text-align: left;
     margin-bottom: 20px;
@@ -55,7 +55,7 @@ hr{
 .info{
     text-align: left;
     font-size: 15px;
-    color: #1f7d53;
+    color: white;
 }
 .info p{
     margin: 8px 0;

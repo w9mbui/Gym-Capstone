@@ -83,6 +83,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: black;
+  font-size: 1.5rem;
 }
 .about-con {
   display: flex;
@@ -94,6 +95,7 @@ body {
   flex: 1;
   min-width: 300px;
   max-width: 550px;
+  font-size: 1.1rem;
 }
 h1 {
   font-size: xx-large;
@@ -122,6 +124,7 @@ p {
   flex: 1;
   min-width: 320px;
   max-width: 550px;
+  font-size: 1.1rem;
 }
 .text-column h1 {
   font-size: 3rem;
@@ -197,6 +200,62 @@ p {
 }
 .ic:hover {
   transform: scale(1.1);
+}
+.membership {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.membership h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.membership p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1f7d53;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 20px;
+  margin-top: 60px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.feature img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  filter: invert(27%) sepia(56%) saturate(361%) hue-rotate(93deg) brightness(88%) contrast(90%);
+
+}
+
+.feature h3 {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #eee;
 }
 .nav-foot {
   display: flex;
